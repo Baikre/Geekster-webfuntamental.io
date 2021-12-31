@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Write a program to take input from user and check whether that is prime or not. Push your code on Github and share that link here. *
+
+
+         let num = prompt("Enter a Number to check prime or Not");
+        num = parseInt(num)
+        if (num == 1) {
+            alert(num + " Not prime or Not composite ")
+        }
+        else if (1 < num) {
+            let chek = true;
+            for (let i = 2; i <= num - 1; i++) {
+                
+                if (num % i == 0) {
+                   console.log(num + " is composite Number ");
+                   chek = false ;
+                    break;
+                    
+                }
+               
+            }
+            if(chek ==true){
+                console.log(num + " is prime Number ");
+            }
+
+
+        }
+    </script>
+</body>
+</html>
