@@ -72,7 +72,7 @@ Assignment:
 
 
     // create empty arr
-    let arr = [];
+    var arr =[];
     // taking input from user using prompt 
     let num1 = (prompt("Enter Number 1st"))
     //prompt gives string using parseInt convert datatype
