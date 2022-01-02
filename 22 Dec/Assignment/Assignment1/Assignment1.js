@@ -78,24 +78,24 @@ Assignment:
     //prompt gives string using parseInt convert datatype
     num1 = parseInt(num1)
     //num1 pushing in arr
-    let number1 = arr.push(num1)
+    var number1 = arr.push(num1)
 
     // taking input from user using prompt 
-    let num2 = (prompt("Enter a Number 2nd"))
+    var num2 = (prompt("Enter a Number 2nd"))
     //prompt gives string using parseInt convert datatype
     num2 = parseInt(num2)
     //num2 pushing in arr
-    let number2 = arr.push(num2)
+    var number2 = arr.push(num2)
 
     // taking input from user using prompt 
-    let num3 = (prompt("Enter a Number 3rd"))
+    var num3 = (prompt("Enter a Number 3rd"))
     //prompt gives string using parseInt convert datatype
     num3 = parseInt(num3)
     //num3 pushing in arr
-    let number3 = arr.push(num3)
+    var number3 = arr.push(num3)
 
     console.log(arr);
     //  Math.max gives  maximum value in arr
-    let max = Math.max(...arr)
+    var max = Math.max(...arr)
     console.log("max is =" + max);
 
