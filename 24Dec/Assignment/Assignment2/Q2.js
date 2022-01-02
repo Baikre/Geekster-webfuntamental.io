@@ -1,4 +1,12 @@
+/*
 
+Q. Take n from the user and print first n prime numbers.
+
+
+*/
+
+// thise question  not comleted
+//keep doing 
 
 
 console.log("hi");
