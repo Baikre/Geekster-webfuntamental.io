@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title>form</title>
+    </head>
+    <style>
+        body{
+            text-align: center;
+            justify-content: center;
+        }
+        #form{
+            width: 650px;
+            height: 600px;
+            text-align: center;
+            border: solid 1px black;
+            
+        }
+        input ,select{
+        padding: 0.3rem 40px;
+        /* margin: 1rem; */
+        border-radius: 0.5rem;
+        }
+    </style>
+    <body >
+        <div id="form">
+            <h2><span style="color:#29B475 ;">Application</span> Form</h2>
+            <!--  -->
+            <form >
+                <input type="text" placeholder="Enter a full name " name="full_name"  required/>
+                <input type="email" placeholder="Enter a email (abcd@gmail.com)" name="email"  required/>
+                <br>
+                <br>
+            <span>Gender : </span>    <input type="radio" /> <span>male</span>
+                <input type="radio" /><span>female</span>
+                <br>
+                <br>
+                <span> Date of Birth(D.o.B)    <input type="date" name="date_of_birth"/></span>
+                
+                <br>
+                <br>
+                <!-- slection of course -->
+                <select name="Select_course">
+                    <option>Select Course</option>
+                    <option>Full Stack Web Development</option>
+                    <option>Advanced Web Development</option>
+                </select>
+                <br>
+                <br>
+                <input type="tel" placeholder="Enter a Mobile number" name="phone_number" />
+                <!-- slection of degree -->
+                <select name="hi_degree">
+                    <option>Select highest degree</option>
+                    <option>B.E or B.Tech CS/IT</option>
+                    <option>B.E or B.Tech Other</option>
+                    <option>M.S or M.Tech CS/IT</option>
+                    <option>M.S or M.Tech other</option>
+                    <option>BCA</option>
+                    <option>MCA</option>
+                    <option>Other</option>
+                </select>
+                <br>
+                <br>
+                <!-- slection of comletion year -->
+                <select name="comletion_year">
+                    <option>Select year of comletion</option>
+                    <option>2023</option>
+                    <option>2022</option>
+                    <option>2021</option>
+                    <option>2020</option>
+                    <option>2019</option>
+                    <option>2018</option>
+        
+                </select>
+                <!-- slection of skill -->
+                <select name="p_Skill">
+                    <option>Select Programing Skills</option>
+                    <option>No coding skills</option>
+                    <option>Basic coding skills </option>
+                    <option>intermediate coding skills</option>
+                    <option>Good coding skills</option>
+        
+                </select>
+                <br>
+                <br>
+                <br>
+                <!-- checkbox -->
+        
+                <span>
+                    <p><input type="checkbox" />By signing up, you agree to the <a href="https://geekster.in/terms">Terms and
+                            Conditions</a> of Geekster (QuantumBit technologies Pvt. Ltd)*.</p><br>
+                    <br>
+                    <button>Submit</button>
+            </form>
+            </div>
+    </body>
+</html>
