@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #007065;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#triangle1{
+    position: relative;
+    width:0px;
+    height:0px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 100px solid;
+    background-color:transparent ;
+    border-top-color: transparent ;
+    border-right-color: transparent ;
+    border-left-color: transparent ;
+    border-bottom-color: #ffeecf ;
+    top: 0px;
+      
+}
+ #triangle2{
+    position: relative;
+
+    width:0px;
+    height:0px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 100px solid;
+    background-color:transparent ;
+    border-top-color: transparent ;
+    border-right-color: transparent ;
+    border-left-color: transparent ;
+    border-bottom-color: #f5c181;;
+    top: -210px; 
+
+}
+ #triangle3{
+     position: relative;
+    width:0px;
+    height:0px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 100px solid;
+    background-color:transparent ;
+    border-top-color: transparent ;
+    border-right-color: transparent ;
+    border-left-color: transparent ;
+    border-bottom-color:  #00a79d;
+    top: -420px; 
+
+} 
