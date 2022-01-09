@@ -18,8 +18,8 @@ body{
     border-top-color: transparent ;
     border-right-color: transparent ;
     border-left-color: transparent ;
-    border-bottom-color: #ffeecf ;
-    top: 0px;
+    border-bottom-color: #00a79d ;
+    top: 290px;
       
 }
  #triangle2{
@@ -35,7 +35,7 @@ body{
     border-right-color: transparent ;
     border-left-color: transparent ;
     border-bottom-color: #f5c181;;
-    top: -210px; 
+    top:0px; 
 
 }
  #triangle3{
@@ -49,7 +49,7 @@ body{
     border-top-color: transparent ;
     border-right-color: transparent ;
     border-left-color: transparent ;
-    border-bottom-color:  #00a79d;
-    top: -420px; 
+    border-bottom-color:  #ffeecf;
+    top: -290px; 
 
 } 
