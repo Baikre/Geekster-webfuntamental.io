@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css"/>
+    
+</head>
+
+<body>
+    <!-- Create a Calculator UI. (No need of any functionality). The task is to give good looks. (It has a display screen -->
+    <div id="fullcalculator">
+        <div id="result">
+            <input type="text" id="output" placeholder="0"/>
+        </div>
+        <hr/>
+        <div id="main_operation">
+            <table>
+                <tbody>
+                   
+                    <tr>
+                        <td> <button class="greay" onclick="del()">AC</button></td>
+                        <td> <button class="greay" onclick="display('+/-')">+/-</button></td> 
+                        <td> <button class="greay" onclick="clear()">⬅</button></td>
+                        <td> <button class="operater" onclick="display('/')">➗</button></td>
+                        
+                    </tr>
+                    <tr>
+                        <td> <button onclick="display ('7')">7</button></td>
+                        <td> <button onclick="display('8')">8</button></td>
+                        <td> <button onclick="display('9')">9</button></td>
+                        <td> <button class="operater" onclick="display('*')">✖</button></td>
+                    </tr>
+                    <tr>
+                        <td> <button onclick="display('4')">4</button></td>
+                        <td> <button onclick="display('5')">5</button></td>
+                        <td> <button onclick="display('6')">6</button></td>
+                        <td> <button class="operater" onclick="display('-')">-</button></td>
+                    </tr>
+                    <tr>
+                        <td> <button onclick="display('1')">1</button></td>
+                        <td> <button onclick="display('2')">2</button></td>
+                        <td> <button onclick="display('3')">3</button></td>
+                        <td> <button class="operater" onclick="display('+')">+</button></td>
+                    </tr>
+                    <tr>
+                        <td> <button onclick="display('0')">0</button></td>
+                        <td> <button onclick="display('%')">%</button></td>
+                        <td> <button onclick="display('.')">.</button></td>
+                        <td> <button class="operater" onclick="calculator()">=</button></td>
+                    </tr>
+                    
+                    
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

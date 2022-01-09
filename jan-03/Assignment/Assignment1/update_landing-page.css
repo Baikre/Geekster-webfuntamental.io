@@ -1,0 +1,31 @@
+body{
+    background-color: #005eff;
+}
+.box{
+    margin-top: 200px;
+    margin-left: 150px;
+    width: 70%;
+    height: 300px;
+    background-color: #fcfaff;
+    border: 1px solid;
+}
+
+#box_text{
+  margin-left: 10px;
+  float: left;
+   width: 40%;
+   background-color: #fcfaff;
+
+}
+input{
+   background-color: #005eff;
+   color:#fff ;
+}
+#image{
+    float: right;
+    width: 40%;
+}
+#image>img{
+    width: 280px;
+    height: 300px;
+}
