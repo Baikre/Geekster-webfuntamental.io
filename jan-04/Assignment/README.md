@@ -1,3 +1,6 @@
+
+finish game till level 14 - https://flukeout.github.io/ write ans as: 1 - "plate" 2 - "bento" .... try to finish more than 14 if possible
+
 Q1. Select the plates
 ==> plate
 Q2. Select the bento boxes
