@@ -7,10 +7,12 @@ let array = [[4, 3, 2, 4],
 
         for (let i = 0; i < array.length; i++) {
 
-          
-            for (let j = 0; j < colum.length; j++) {
+            
+        
+            for (let j = 0; j < array[i].length; j++) {
 
-             
+               
+
                 if (i == j) {
                    addition = addition + array[i][j]
                 }
