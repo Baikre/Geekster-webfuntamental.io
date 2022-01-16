@@ -8,9 +8,8 @@ nav{
     background-color: #0082e6;
     height: 80px;
     width: 100%;
-/*     margin-top:-9rem; */
-/*     position: fixed; */
-    
+    position: fixed;
+    top: 0px;  
   /* border: 1px solid black; */
 }
 label.logo{
