@@ -1,0 +1,28 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+ul{
+    width: 160px;
+    height: 100px;
+    margin: 20px;
+    float:left;
+    background-color: #06897c;
+    list-style-type: none;
+    box-shadow: 5px 5px #888888;
+    /* border: 1px solid black; */
+}
+
+ul li{
+    /* display: inline-block; */
+    width: 160px;
+    margin-top: 10px;
+    
+}
+ul:hover{
+    cursor: pointer;
+    border: #00ffff 0.25px solid;
+    border-radius: 5px;
+   
+}
+
