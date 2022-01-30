@@ -1,32 +1,17 @@
-var url = " http://universities.hipolabs.com/search?country=";
-
-var input = document.getElementById("input");
-var btn_ref = document.getElementById("btn")
-
-fetch(url)
-.then((geek)=>geek.json())
-.then((finResult)=>{
-    console.log(finResult);
-
-
-    var input_val = input.value;
-
-
-    function fil (){
-
-        for( var i =0 ; i< 10; i++){
-            //   var m = finResult[i].name;
-              
-            // console.log(m);
-        
-              if( input_val == finResult[i].country ){
-                 var n = finResult[i].name
-                 console.log(n);
-               }
-           
-            
-            }
+function searchUniversity(query){
+    const url = `http://universities.hipolabs.com/search?country=${query}`;
+    fetch(url)
+    .then(response => response.json())
+    .then((jsonData) => {
+        var len = jsonData.length;
+        for(var i=0;i<len;i++){
+             document.write(jsonData[i].name+"<br>");
+        }
+    });
+}
+window.onload = () =>{
+    const search = document.querySelector("input[type='text']");
+    search.onkeyup = (event) => {
+        searchUniversity(search.value);
     }
-btn_ref.addEventListener("click",fil)
-
-})
+}
