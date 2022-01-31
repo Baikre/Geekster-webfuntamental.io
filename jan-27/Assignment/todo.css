@@ -1,0 +1,34 @@
+body{
+    width: 100vw;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    margin-top: 80px;
+
+}
+#container input{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 21px;
+    border: 2px solid #00ffff;
+}
+#container button{
+    width: 105px;
+    height: 55px;
+    border: 2px solid #00ffff;
+    border-radius: 28px
+}
+
+#all_todoItem div{
+    margin-top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#all_todoItem div i{
+
+    margin-left: 10px;
+}
