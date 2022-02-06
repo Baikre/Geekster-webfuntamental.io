@@ -78,16 +78,22 @@ var likebtn = document.querySelectorAll(".like");
 // console.log(likebtn);
 
 
-
+// var dub = document.querySelectorAll(".dubleClick")
  
 
 
 
-likebtn.forEach((EachImg)=>{
-    EachImg.addEventListener('click',()=>{
-        EachImg.src="./images/red_heart.png"
+likebtn.forEach((EachIcon)=>{
+ 
+
+    EachIcon.addEventListener('click',  change =()=> {
+        EachIcon.src="./images/red_heart.png"
     })
-    
+  
+  })
+
+
+  // dub.addEventListener("dblclick",)
 
   //   EachImg.addEventListener('click',chang_likebtn)
     
@@ -96,9 +102,14 @@ likebtn.forEach((EachImg)=>{
 
   // }
 
-})
 
 
+
+// dub.forEach((EachImg)=>{
+//   EachImg.addEventListener('dblclick',()=>{
+//     Eachimg.src="./images/red_heart.png"
+//   })
+// })
   
 
 
@@ -109,7 +120,7 @@ likebtn.forEach((EachImg)=>{
 
   
 
-//   dub.addEventListener('dblclick',chang_likebtn)
+ 
   
 
  

@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #c3dfe0;
+  }
+  
+  img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container {
+    border: 2px solid rgb(81, 174, 143);
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  
+  .button-container {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    /* text-align: center; */
+    border: transparent;
+    outline: none;
+  }
+  
+  input::placeholder {
+    /* font-size: 20px; */
+  }
+  
+  .input-div {
+    display: flex;
+    background-color: white;
+  }
