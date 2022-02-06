@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#conteiner{
+  width: 70vw;
+  text-align: center;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+h2{
+    margin: 0px;
+    height: 40px;
+    font-size: 32px;
+    color: #77a2db;
+ 
+}
+#main{
+    height: 140px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    
+}
+
+span{
+    font-size: 28px;
+
+}
+#minute {
+    font-size:62px; 
+    
+}
+#second{
+    font-size:62px;
+}
+
+#margin_right{
+    margin-right: 30px;
+}
+.button{
+    height: 60px;
+}
+.button button{
+    width: 70px;
+    height: 40px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+hr{
+    
+    border: 50% 1px solid aquamarine;
+}
