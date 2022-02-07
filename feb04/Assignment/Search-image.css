@@ -1,3 +1,30 @@
 body{
    
 }
+#heading{
+    display: inline;
+   margin-left: 324px;
+}
+#heading img{
+    width: 427px;
+    height: 117px;
+    /* margin-left: 324px; */
+}
+#heading input{
+    width: 437px;
+    height: 47px;
+    font-size: 28px;
+    margin-left: 324px;
+    border-radius: 54px
+}
+#heading button{
+    width: 128px;
+    height: 44px;
+    border-radius: 14px;
+    font-size: 18px;
+}
+#container img{
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+}

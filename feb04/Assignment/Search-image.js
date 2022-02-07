@@ -6,20 +6,20 @@ let  API_KEY = "8UtYDC2WD9j3J42aFF5kMYB6y07rEKoostTVaJPUQP0";
   var input =document.getElementById("input")
 
   var btn_ref =document.getElementById("btn")
-
+var input_val = input.value;
 
   function get_value(){
     var input1 = input.value;
-    input1 = "";
-    fetch_amdget()
+    
+    fetch_amdget(input1)
   }
   btn_ref.addEventListener("click",get_value)
 
 
   let Html_div_ref = document.getElementById("container")
 
-function fetch_amdget(){
-  fetch(`https://api.unsplash.com/search/photos/?client_id=${API_KEY}&query=${get_value()}&per_page=30`)
+function fetch_amdget(query){
+  fetch(`https://api.unsplash.com/search/photos/?client_id=${API_KEY}&query=${query}&per_page=30`)
   .then( response=> response.json())
   .then((res)=>{
      console.log(res);
